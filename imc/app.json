@@ -1,10 +1,15 @@
 {
   "expo": {
-    "name": "imc",
-    "slug": "imc",
+    "name": "Calculadora IMC",
+    "slug": "calculadora-imc",
+    "privacy": "public",
+    "description": "",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.udanielnogueira.calculadoraimc"
+    }
   }
 }
