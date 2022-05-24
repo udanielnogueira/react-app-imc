@@ -30,13 +30,13 @@ export default class App extends Component<Props> {
       x.result="Sobrepeso"
     }
     else if(x.imc>=30 && x.imc<=34.9){
-      x.result="Obesidade (grau I)"
+      x.result="Obesidade"
     }
     else if(x.imc>=35 && x.imc<=39.9){
-      x.result="Obesidade Severa (grau II)"
+      x.result="Obesidade Severa"
     }
-    else{
-      x.result="Obesidade Mórbida (grau III)"
+    else if(x.imc>=40){
+      x.result="Obesidade Mórbida"
     }
     
   }
