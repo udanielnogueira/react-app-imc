@@ -3,7 +3,7 @@
     "name": "Calculadora IMC",
     "slug": "calculadora-imc",
     "privacy": "public",
-    "description": "",
+    "description": "Aplicativo para calcular o IMC.",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
