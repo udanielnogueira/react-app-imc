@@ -5,11 +5,21 @@
     "privacy": "public",
     "description": "Aplicativo para calcular o IMC.",
     "version": "1.0.0",
+    "icon": "./assets/leaf.png",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#16f537"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
     "android": {
-      "package": "com.udanielnogueira.calculadoraimc"
+      "package": "com.udanielnogueira.calculadoraimc",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.udanielnogueira.calculadoraimc",
+      "buildNumber": "1.0.0"
     }
   }
 }
